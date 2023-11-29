@@ -1,0 +1,8 @@
+@layer tokens {
+    :where(:root, :host) {
+  --colors-blue-base: #00a0d0;
+  --colors-light: #c8c8c8;
+  --colors-white: #ffffff
+}
+  }
+  

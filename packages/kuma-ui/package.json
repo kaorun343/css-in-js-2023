@@ -1,0 +1,28 @@
+{
+  "name": "@css-in-js/kuma-ui",
+  "private": true,
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "start": "vite preview"
+  },
+  "dependencies": {
+    "@kuma-ui/core": "^1.5.4",
+    "class-variance-authority": "^0.7.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@kuma-ui/vite": "^1.2.0",
+    "@css-in-js/prettier-config": "workspace:^",
+    "@tsconfig/vite-react": "^2.0.1",
+    "@types/react": "^18.2.38",
+    "@types/react-dom": "^18.2.17",
+    "@vitejs/plugin-react": "^4.2.0",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "prettier": "^3.1.0",
+    "typescript": "^5.3.2",
+    "vite": "^5.0.2"
+  },
+  "prettier": "@css-in-js/prettier-config"
+}

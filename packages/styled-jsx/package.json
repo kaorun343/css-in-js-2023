@@ -1,0 +1,25 @@
+{
+  "name": "@css-in-js/styled-jsx",
+  "private": true,
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "start": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "styled-jsx": "^5.1.2"
+  },
+  "devDependencies": {
+    "@css-in-js/prettier-config": "workspace:^",
+    "@tsconfig/vite-react": "^2.0.1",
+    "@types/react": "^18.2.38",
+    "@types/react-dom": "^18.2.17",
+    "@vitejs/plugin-react": "^4.2.0",
+    "prettier": "^3.1.0",
+    "typescript": "^5.3.2",
+    "vite": "^5.0.2"
+  },
+  "prettier": "@css-in-js/prettier-config"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "@css-in-js/linaria",
+  "private": true,
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "start": "vite preview"
+  },
+  "dependencies": {
+    "@linaria/core": "^5.0.2",
+    "@linaria/react": "^5.0.3",
+    "class-variance-authority": "^0.7.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.23.3",
+    "@babel/preset-typescript": "^7.23.3",
+    "@linaria/babel-preset": "^5.0.4",
+    "@linaria/vite": "^5.0.4",
+    "@css-in-js/prettier-config": "workspace:^",
+    "@tsconfig/vite-react": "^2.0.1",
+    "@types/react": "^18.2.38",
+    "@types/react-dom": "^18.2.17",
+    "@vitejs/plugin-react": "^4.2.0",
+    "prettier": "^3.1.0",
+    "typescript": "^5.3.2",
+    "vite": "^5.0.2"
+  },
+  "prettier": "@css-in-js/prettier-config"
+}

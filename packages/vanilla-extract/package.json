@@ -1,0 +1,27 @@
+{
+  "name": "@css-in-js/vanilla-extract",
+  "private": true,
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "start": "vite preview"
+  },
+  "dependencies": {
+    "@vanilla-extract/recipes": "^0.5.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@css-in-js/prettier-config": "workspace:^",
+    "@tsconfig/vite-react": "^2.0.1",
+    "@types/react": "^18.2.38",
+    "@types/react-dom": "^18.2.17",
+    "@vanilla-extract/css": "^1.14.0",
+    "@vanilla-extract/vite-plugin": "^3.9.2",
+    "@vitejs/plugin-react": "^4.2.0",
+    "prettier": "^3.1.0",
+    "typescript": "^5.3.2",
+    "vite": "^5.0.2"
+  },
+  "prettier": "@css-in-js/prettier-config"
+}
